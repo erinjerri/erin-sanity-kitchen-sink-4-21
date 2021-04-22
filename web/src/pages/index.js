@@ -2,8 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import Errors from "../components/errors";
 import Page from "../templates/page";
-import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
-deckDeckGoHighlightElement();
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
