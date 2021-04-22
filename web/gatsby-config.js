@@ -23,17 +23,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
   },
-  plugins: [ 
-    { 
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [ 
-        { resolve: `gatsby-remark-highlight-code`
-        },
-      ],
-    },
-  },
-],
     {
       resolve: "gatsby-source-sanity",
       options: {
